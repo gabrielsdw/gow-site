@@ -1,0 +1,28 @@
+
+#jogos {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5px;
+}
+
+
+.jogo {
+    border: 2px solid black;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.jogo img {
+    width: 100%;
+    height: 100%;
+}
+
+.jogo:hover {
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
+}
+
+#descricao {
+    background-color: white;
+}
