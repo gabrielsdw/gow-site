@@ -1,6 +1,8 @@
 #galeria {
     width: 80%;
     margin: 0 auto;
+    padding-top: 5%;
+    padding-bottom: 5%;   
 }
 
 #big {
@@ -53,7 +55,6 @@
 .miniatura:hover {
     background-color: rgb(255, 0, 0);
     border-radius: 10px;
-    border-color: white;
 }
 
 .miniatura img:hover {

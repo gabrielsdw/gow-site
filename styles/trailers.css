@@ -2,10 +2,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%; ;
 }
 
 .trailer {
     text-align: center;
+    padding-top: 30px;
 }
 
 .trailer iframe {
@@ -15,4 +18,8 @@
 .trailer iframe:hover {
     border-radius: 5px;
     border-color: red;
+}
+
+.trailer h2 {
+    padding-bottom: 15px;
 }

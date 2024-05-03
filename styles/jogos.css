@@ -4,6 +4,9 @@
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 5px;
+    max-height: 60%;
+    padding-top: 5%;
+    padding-bottom: 5%; 
 }
 
 

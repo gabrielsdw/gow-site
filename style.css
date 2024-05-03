@@ -1,3 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth; 
+}
+
 body {
     background-color: rgb(82, 5, 5);
 }
@@ -9,6 +18,8 @@ body {
     font-weight: 700;
     font-style: normal;
     font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .menu {
@@ -16,19 +27,26 @@ body {
     text-align: center;
     background-color: black;
     padding: 20px;
-}
-
-.link:hover {
-    background-color: white;
+    border-radius: 10px;
 }
 
 .link {
+    background-color: black;
     display: inline;
     margin-left: 30px;
-    background-color: gray;
-
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: 0.5s;
 }
+
+.link:hover {
+    background-color: red;
+    border-radius: 5px;
+}
+
 .link a {
+    color: rgb(82, 5, 5);
+    font-size: 20px;
     text-align: center; 
     padding-top: 10px;
     padding-bottom: 10px;
@@ -57,8 +75,47 @@ body {
 }
 
 #resumo {
-    margin-top: 150px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
     justify-content: center;
     text-align: center;
     box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.5);
+}
+
+#rodape {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#rodape-img {
+    padding-right: 10px;
+}
+
+#rodape-img img {
+    height: 30px;
+}
+
+#rodape-txt {
+    margin: auto auto;
+}
+
+#inicio {
+    margin: auto auto;
+}
+
+#inicio a {
+    color: rgb(82, 5, 5);
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px; 
+    padding-left: 8px;
+    padding-right: 8px;
+    transition: 0.5s;
+} 
+
+#inicio a:hover {
+    background-color: red;
+    border-radius: 5px;
 }

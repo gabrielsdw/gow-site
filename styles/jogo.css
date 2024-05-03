@@ -1,0 +1,50 @@
+
+.container {
+    align-items: center;
+}
+
+.desc {
+    margin-top: 18px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.desc p {
+    text-align: center;
+}
+
+.comprar {
+    display: flex;
+    flex-direction: column;   
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.comprar img {
+    border: 2.5px solid black;
+    border-radius: 2px;
+    width: 220px;
+}
+
+.comprar img:hover {
+    border: 2px solid red;
+}
+
+.comprar p {
+    font-size: 15px;
+}
+
+.comprar a {
+    color: red;
+}
+
+.avaliacao {
+    padding-top: 40px;
+    padding-right: 10%;
+    text-align: end;
+}
+
+.avaliacao a {
+    color: red;
+}
